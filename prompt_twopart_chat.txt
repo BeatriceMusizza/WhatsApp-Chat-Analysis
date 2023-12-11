@@ -1,0 +1,16 @@
+Generate a simulated WhatsApp-style chat log between two participants with the following format:
+
+[DD/MM/YY HH:MM:SS] Alice: Message1
+[DD/MM/YY HH:MM:SS] Bob: Message2
+...
+
+Ensure that the chat spans over different days and includes conversations on various topics. 
+You can customize the names of the participants, messages, emoji, and timestamps as needed. 
+You can also have a participant send more than one message in a row; it doesn't have to be a back-and-forth. 
+Leave no space between different days.
+
+Be sure to include some omitted media that has been deleted because the chat is exported without media. The format in this case is:
+
+[DD/MM/YY HH:MM:SS] Alice: <Media omitted>
+
+The goal is to create a diverse and extended conversation that can be used for testing and development purposes in a WhatsApp Chat Analysis project.
